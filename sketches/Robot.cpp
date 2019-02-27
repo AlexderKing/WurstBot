@@ -20,6 +20,7 @@ void RobotClass::CreateMotorsAndControl() {
 void RobotClass::init()
 {
 	InitializeMotorPinout();
+	InitializeUltrasonicPinout();
 	CreateMotorsAndControl();
 }
 
@@ -29,7 +30,7 @@ void RobotClass::Drive(const int direction, const int distance) const {
 
 void RobotClass::InitializeMotorPinout() {
 
-    Serial.print("Initialize pins ...");
+    Serial.print("Initialize motor pins ...");
 
     pinMode(kmotor_1_direction, OUTPUT);
     pinMode(kmotor_1_enable, OUTPUT);
@@ -43,6 +44,11 @@ void RobotClass::InitializeMotorPinout() {
     pinMode(kpull_pin, OUTPUT);
 
     Serial.println("finished");
+}
+
+void RobotClass::InitializeUltrasonicPinout() {
+	pinMode(kultrasonic_1_echo, INPUT);
+	pinMode(kultrasonic_1_trig, OUTPUT);
 }
 
 RobotClass Robot;

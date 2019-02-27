@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ImplicitFlagCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <GCC>C:\Users\Alex\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1/bin/arm-none-eabi-gcc</GCC>
-  <GXX>C:\Users\Alex\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1/bin/arm-none-eabi-g++</GXX>
+  <GCC>C:\Users\The stolen Bratwurst\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1/bin/arm-none-eabi-gcc</GCC>
+  <GXX>C:\Users\The stolen Bratwurst\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1/bin/arm-none-eabi-g++</GXX>
   <CachedFlags>
     <Entry>
       <Key>
@@ -10,21 +10,21 @@
       </Key>
       <Specs>
         <RawIncludeDirs>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3/arm-none-eabi/armv7-m</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3/backward</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include-fixed</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3/arm-none-eabi/armv7-m</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include/c++/4.8.3/backward</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include-fixed</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include</string>
         </RawIncludeDirs>
         <RawLibraryPaths>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/</string>
         </RawLibraryPaths>
         <ForcedIncludeFiles />
         <PreprocessorMacros>
@@ -1426,18 +1426,18 @@
       </Key>
       <Specs>
         <RawIncludeDirs>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include-fixed</string>
-          <string>c:\users\alex\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/include-fixed</string>
+          <string>c:\users\the stolen bratwurst\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin\../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/include</string>
         </RawIncludeDirs>
         <RawLibraryPaths>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/armv7-m/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/</string>
-          <string>c:/users/alex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/armv7-m/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/</string>
+          <string>c:/users/the stolen bratwurst/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../arm-none-eabi/lib/</string>
         </RawLibraryPaths>
         <ForcedIncludeFiles />
         <PreprocessorMacros>

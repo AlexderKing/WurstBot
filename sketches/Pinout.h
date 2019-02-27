@@ -14,4 +14,7 @@ constexpr auto kmotor_3_direction   = 34;
 constexpr auto kmotor_4_enable      = 37;
 constexpr auto kmotor_4_direction   = 36;
 
+constexpr auto kultrasonic_1_echo = 50;
+constexpr auto kultrasonic_1_trig = 51;
+
 #endif // PINOUT_H_

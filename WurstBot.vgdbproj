@@ -25,6 +25,7 @@
         <string>sketches\Pinout.h</string>
         <string>sketches\Consts.h</string>
         <string>sketches\Robot.h</string>
+        <string>sketches\HCSR04.h</string>
       </OtherFiles>
     </ProjectModeSettings>
   </Project>
@@ -120,7 +121,7 @@
       </DebugSettingsOverride>
       <BuildSettingsExtension xsi:type="com.visualgdb.build.external.arduino.extension">
         <BoardID>arduino:sam:arduino_due_x_dbg</BoardID>
-        <COMPort>COM4</COMPort>
+        <COMPort>COM10</COMPort>
         <Properties>
           <Entries />
         </Properties>

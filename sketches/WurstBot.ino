@@ -5,10 +5,10 @@
     Created:	25/02/2019 22:14:10
     Author:     DESKTOP-BSHP86P\The stolen Bratwurst
 */
-#include <variant.h>
 #include "Robot.h"
 
-#include "pinout.h"
+#include "Pinout.h"
+#include "HCSR04.h"
 
 
 // Define Function Prototypes that use User Types below here or use a .h file
@@ -21,11 +21,13 @@
 
 // The setup() function runs once each time the micro-controller starts
 
+HCSR04Class* us;
 
 void setup()
 {
     Serial.begin(9600);
-	
+	us = new HCSR04Class();
+	us->init(kultrasonic_1_trig, kultrasonic_1_echo);
 	auto* robot = new RobotClass();
 	robot->init();
 	
@@ -42,16 +44,25 @@ void setup()
 //		
 //	}
 //	
-	Serial.println("Should drive now");
-	robot->Drive(0, 30);
-	robot->Drive(1, 30);
-	robot->Drive(2, 30);
-	robot->Drive(3, 30);
+	//Serial.println("Should drive now");
+
+	/*robot->Drive(0, 10);
+	delay(3000);
+	robot->Drive(1, 10);
+	delay(3000);
+	robot->Drive(2, 10);
+	delay(3000);
+	robot->Drive(3, 10);*/
 }
 
 // Add the main program code into the continuous loop() function
 void loop()
 {
+	Serial.print("Distance: ");
+	auto d = us->ReadDistanceInCm();
+	Serial.print(d);
+	Serial.println("cm");
 
+	delay(500);
 
 }

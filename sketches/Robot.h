@@ -10,6 +10,7 @@ class RobotClass
 {
  private:
     static void InitializeMotorPinout();
+	static void InitializeUltrasonicPinout();
 	void CreateMotorsAndControl();
 
 	MotorBoardClass * motor_board_ = nullptr;

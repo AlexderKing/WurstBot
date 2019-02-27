@@ -88,7 +88,10 @@ void MotorBoardClass::DriveInDirection(const int moving_direction,
     EnableAllMotors();
     ChangeDirection(directions[moving_direction]);
     
-    PullSteps(steps, kmotor_speed);
+	PullSteps(steps, kmotor_speed);
+
+	EnableAllMotors();
+    delay(1000);
 	DisableAllMotors();
     Serial.println("Disabling motors");
 }
