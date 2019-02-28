@@ -8,7 +8,7 @@
 #else
 	#include "WProgram.h"
 #endif
-#include "CONSTS.h"
+#include "Consts.h"
 #include "Enums.h"
 #include "Motor.h"
 

@@ -22,7 +22,7 @@ void MotorClass::ApplyChanges() const
 {
 	digitalWrite(enable_pin_, status_);
 	digitalWrite(direction_pin_, direction_);
-	Serial.println("Applied changes");
+	//Serial.println("Applied changes");
 }
 
 

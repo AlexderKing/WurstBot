@@ -6,19 +6,26 @@
 #include "Motor.h"
 #include "MotorBoard.h"
 
+#include "HCSR04.h"
+
 class RobotClass
 {
  private:
     static void InitializeMotorPinout();
 	static void InitializeUltrasonicPinout();
 	void CreateMotorsAndControl();
+	void CreateUltrasonicAndControl();
 
 	MotorBoardClass * motor_board_ = nullptr;
 	MotorClass * motors_[4] = {};
+    
+	HCSR04Class * us_[4] = {};
 
  public:
 	void init();
 	void Drive(int direction, int distance) const;
+	bool* ScanWalls();
+    void Maze();
 };
 
 extern RobotClass Robot;

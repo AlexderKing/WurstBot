@@ -18,6 +18,8 @@ public:
 	void init(uint8_t trigger_pin, uint8_t echo_pin);
 	int ReadDistanceInCm();
 
+	bool IsWall();
+
 private:
 	uint8_t trigger_pin_;
 	uint8_t echo_pin_;

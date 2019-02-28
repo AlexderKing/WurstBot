@@ -60,7 +60,8 @@ void MotorBoardClass::PullSteps(const int steps, const int speed) const {
 void MotorBoardClass::DriveInDirection(const int moving_direction,
                                        const int radius,
                                        const int distance_in_cm,
-                                       int speed) {
+                                       int speed) 
+{
     //   /   |   \ p
     //  /    |    \    to be continued
     // /     |    /\ <== 90°
@@ -74,23 +75,26 @@ void MotorBoardClass::DriveInDirection(const int moving_direction,
     // ==> b = sqrt(2p²)
 
     Serial.println("Enabling motors");
-    const int steps = sqrt(2 * powf(radius * 2 * PI, 2)) * distance_in_cm / 2;
+    const int steps = sqrt(2 * powf(radius * 2 * PI, 2)) * (distance_in_cm - 6) / 2;
     Serial.print("Steps: ");
     Serial.println(steps);
 
     int directions[4][4] = {
-        {Direction::Left, Direction::Right, Direction::Right, Direction::Left},
         {Direction::Right, Direction::Right, Direction::Left, Direction::Left},
-        {Direction::Right, Direction::Left, Direction::Left, Direction::Right},
-        {Direction::Left, Direction::Left, Direction::Right, Direction::Right}
+        {Direction::Left, Direction::Right, Direction::Left, Direction::Right},
+        {Direction::Left, Direction::Left, Direction::Right, Direction::Right},
+        {Direction::Right, Direction::Right, Direction::Left, Direction::Left}
     };
 
+    DisableAllMotors();
+    delay(1000);
     EnableAllMotors();
     ChangeDirection(directions[moving_direction]);
     
 	PullSteps(steps, kmotor_speed);
 
-	EnableAllMotors();
+	Serial.println("Droven");
+    EnableAllMotors();
     delay(1000);
 	DisableAllMotors();
     Serial.println("Disabling motors");

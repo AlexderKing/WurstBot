@@ -26,6 +26,9 @@
         <string>sketches\Consts.h</string>
         <string>sketches\Robot.h</string>
         <string>sketches\HCSR04.h</string>
+        <string>sketches\node.h</string>
+        <string>sketches\map.h</string>
+        <string>sketches\node_list.h</string>
       </OtherFiles>
     </ProjectModeSettings>
   </Project>

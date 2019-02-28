@@ -18,7 +18,16 @@ int HCSR04Class::ReadDistanceInCm() {
 
     // Read the incoming signal and transform it to cm
 	const long duration = pulseIn(echo_pin_, HIGH);
-	Serial.print("Duration: ");
-	Serial.println(duration);
+//	Serial.print("Duration: ");
+//	Serial.println(duration);
 	return duration * 0.034f / 2;
+}
+
+bool HCSR04Class::IsWall() {
+	if (ReadDistanceInCm() < 12)
+	{
+		return true;
+	}
+
+	return false;
 }
