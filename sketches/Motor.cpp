@@ -21,6 +21,8 @@ void MotorClass::ChangeDirection(const int new_direction)
 void MotorClass::ApplyChanges() const
 {
 	digitalWrite(enable_pin_, status_);
+    Serial.println(status_);
+        
 	digitalWrite(direction_pin_, direction_);
 	//Serial.println("Applied changes");
 }

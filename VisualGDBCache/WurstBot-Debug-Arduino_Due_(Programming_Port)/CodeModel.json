@@ -1241,21 +1241,23 @@
         "ArchiveFile": "",
         "Invocations": [
             {
-                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
-                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\map.c",
-                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\map.c.o",
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\GYSensor.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\GYSensor.cpp.o",
                 "Arguments": [
                     "-c",
                     "-g",
                     "-O0",
                     "-w",
-                    "-std=gnu11",
+                    "-std=gnu++11",
                     "-ffunction-sections",
                     "-fdata-sections",
                     "-nostdlib",
+                    "-fno-threadsafe-statics",
                     "--param",
                     "max-inline-insns-single=500",
-                    "-Dprintf=iprintf",
+                    "-fno-rtti",
+                    "-fno-exceptions",
                     "-MMD",
                     "-mcpu=cortex-m3",
                     "-mthumb",
@@ -1276,91 +1278,9 @@
                     "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
                     "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
                     "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\map.c",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\GYSensor.cpp",
                     "-o",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\map.c.o"
-                ]
-            },
-            {
-                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
-                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node.c",
-                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node.c.o",
-                "Arguments": [
-                    "-c",
-                    "-g",
-                    "-O0",
-                    "-w",
-                    "-std=gnu11",
-                    "-ffunction-sections",
-                    "-fdata-sections",
-                    "-nostdlib",
-                    "--param",
-                    "max-inline-insns-single=500",
-                    "-Dprintf=iprintf",
-                    "-MMD",
-                    "-mcpu=cortex-m3",
-                    "-mthumb",
-                    "-DF_CPU=84000000L",
-                    "-DARDUINO=10600",
-                    "-DARDUINO_SAM_DUE",
-                    "-DARDUINO_ARCH_SAM",
-                    "-D__SAM3X8E__",
-                    "-mthumb",
-                    "-DUSB_VID=0x2341",
-                    "-DUSB_PID=0x003e",
-                    "-DUSBCON",
-                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
-                    "-DUSB_PRODUCT=\"Arduino Due\"",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node.c",
-                    "-o",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node.c.o"
-                ]
-            },
-            {
-                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
-                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node_list.c",
-                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node_list.c.o",
-                "Arguments": [
-                    "-c",
-                    "-g",
-                    "-O0",
-                    "-w",
-                    "-std=gnu11",
-                    "-ffunction-sections",
-                    "-fdata-sections",
-                    "-nostdlib",
-                    "--param",
-                    "max-inline-insns-single=500",
-                    "-Dprintf=iprintf",
-                    "-MMD",
-                    "-mcpu=cortex-m3",
-                    "-mthumb",
-                    "-DF_CPU=84000000L",
-                    "-DARDUINO=10600",
-                    "-DARDUINO_SAM_DUE",
-                    "-DARDUINO_ARCH_SAM",
-                    "-D__SAM3X8E__",
-                    "-mthumb",
-                    "-DUSB_VID=0x2341",
-                    "-DUSB_PID=0x003e",
-                    "-DUSBCON",
-                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
-                    "-DUSB_PRODUCT=\"Arduino Due\"",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
-                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node_list.c",
-                    "-o",
-                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\node_list.c.o"
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\GYSensor.cpp.o"
                 ]
             },
             {
@@ -1404,6 +1324,49 @@
                     "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\HCSR04.cpp",
                     "-o",
                     "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\HCSR04.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\MazeMap.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\MazeMap.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\MazeMap.cpp",
+                    "-o",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\MazeMap.cpp.o"
                 ]
             },
             {
@@ -1494,6 +1457,92 @@
             },
             {
                 "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Node.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Node.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Node.cpp",
+                    "-o",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Node.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\NodeList.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\NodeList.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\NodeList.cpp",
+                    "-o",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\NodeList.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
                 "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Robot.cpp",
                 "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Robot.cpp.o",
                 "Arguments": [
@@ -1533,6 +1582,92 @@
                     "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Robot.cpp",
                     "-o",
                     "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Robot.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tile.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tile.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tile.cpp",
+                    "-o",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tile.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tools.cpp",
+                "ObjectFile": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tools.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/libsam",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x",
+                    "-IC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tools.cpp",
+                    "-o",
+                    "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\Tools.cpp.o"
                 ]
             },
             {
@@ -1634,12 +1769,6 @@
     ],
     "KnownHeaders": [
         {
-            "Name": "Wire.h",
-            "LibraryDirectories": [
-                "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src"
-            ]
-        },
-        {
             "Name": "HID.h",
             "LibraryDirectories": [
                 "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\HID\\src"
@@ -1650,6 +1779,12 @@
             "LibraryDirectories": [
                 "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\SPI\\src"
             ]
+        },
+        {
+            "Name": "Wire.h",
+            "LibraryDirectories": [
+                "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\libraries\\Wire\\src"
+            ]
         }
     ],
     "Prototypes": [
@@ -1658,14 +1793,14 @@
             "File": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\sketches\\WurstBot.ino",
             "Prototype": "void setup();",
             "Modifiers": "",
-            "Line": 27
+            "Line": 28
         },
         {
             "FunctionName": "loop",
             "File": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\sketches\\WurstBot.ino",
             "Prototype": "void loop();",
             "Modifiers": "",
-            "Line": 45
+            "Line": 49
         }
     ],
     "KnownLibraries": [
@@ -1724,67 +1859,75 @@
     "LinkerCommandLine": "\"C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc\" -mcpu=cortex-m3 -mthumb -Os -Wl,--gc-sections \"-TC:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x/linker_scripts/gcc/flash.ld\" \"-Wl,-Map,C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug/WurstBot.ino.map\"  -o \"C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug/WurstBot.ino.elf\" \"-LC:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug\" -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group -u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid {object_files} \"C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x/libsam_sam3x8e_gcc_rel.a\" \"C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug/{archive_file}\" -Wl,--end-group -lm -lgcc",
     "BuildProperties": [
         {
-            "Key": "software",
-            "Value": "ARDUINO"
+            "Key": "compiler.objcopy.eep.flags",
+            "Value": "-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0"
         },
         {
-            "Key": "recipe.S.o.pattern",
-            "Value": "\"{compiler.path}{compiler.S.cmd}\" {compiler.S.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.S.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+            "Key": "compiler.warning_flags.default",
+            "Value": ""
         },
         {
-            "Key": "upload.maximum_size",
-            "Value": "524288"
+            "Key": "recipe.size.regex",
+            "Value": "\\.text\\s+([0-9]+).*"
         },
         {
-            "Key": "runtime.platform.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12"
-        },
-        {
-            "Key": "build.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug"
-        },
-        {
-            "Key": "tools.avrdude.path",
-            "Value": "{runtime.tools.avrdude.path}"
-        },
-        {
-            "Key": "extra.time.zone",
-            "Value": "3600"
-        },
-        {
-            "Key": "vid.1",
-            "Value": "0x2A03"
-        },
-        {
-            "Key": "build.vid",
-            "Value": "0x2341"
-        },
-        {
-            "Key": "runtime.tools.bossac-1.6.1-arduino.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.6.1-arduino"
+            "Key": "compiler.elf2hex.flags",
+            "Value": "-O binary"
         },
         {
             "Key": "recipe.output.save_file",
             "Value": "{build.project_name}.{build.variant}.bin"
         },
         {
-            "Key": "compiler.c.elf.cmd",
-            "Value": "arm-none-eabi-gcc"
+            "Key": "software",
+            "Value": "ARDUINO"
         },
         {
-            "Key": "upload.tool",
-            "Value": "bossac"
+            "Key": "name",
+            "Value": "Arduino Due (Programming Port)"
         },
         {
-            "Key": "recipe.ar.pattern",
-            "Value": "\"{compiler.path}{compiler.ar.cmd}\" {compiler.ar.flags} {compiler.ar.extra_flags} \"{archive_file_path}\" \"{object_file}\""
+            "Key": "compiler.ar.cmd",
+            "Value": "arm-none-eabi-ar"
         },
         {
-            "Key": "tools.bossac.upload.params.verify",
-            "Value": "-v"
+            "Key": "build.arch",
+            "Value": "SAM"
         },
         {
-            "Key": "compiler.c.extra_flags",
+            "Key": "build.pid",
+            "Value": "0x003e"
+        },
+        {
+            "Key": "compiler.elf2hex.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.S.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.tools.ctags-5.8-arduino11.path",
+            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "recipe.S.o.pattern",
+            "Value": "\"{compiler.path}{compiler.S.cmd}\" {compiler.S.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.S.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "_id",
+            "Value": "arduino_due_x_dbg"
+        },
+        {
+            "Key": "tools.bossac.upload.params.quiet",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.warning_flags.more",
+            "Value": "-Wall"
+        },
+        {
+            "Key": "compiler.c.elf.extra_flags",
             "Value": ""
         },
         {
@@ -1792,103 +1935,143 @@
             "Value": "{path}/ctags"
         },
         {
-            "Key": "tools.bossac.path",
-            "Value": "{runtime.tools.bossac.path}"
+            "Key": "tools.ctags.pattern",
+            "Value": "\"{cmd.path}\" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives \"{source_file}\""
+        },
+        {
+            "Key": "compiler.S.cmd",
+            "Value": "arm-none-eabi-gcc"
         },
         {
             "Key": "tools.bossac.upload.pattern",
             "Value": "\"{path}/{cmd}\" {upload.verbose} --port={serial.port.file} -U {upload.native_usb} -e -w {upload.verify} -b \"{build.path}/{build.project_name}.bin\" -R"
         },
         {
+            "Key": "build.core",
+            "Value": "arduino"
+        },
+        {
+            "Key": "build.extra_flags",
+            "Value": "-D__SAM3X8E__ -mthumb {build.usb_flags}"
+        },
+        {
+            "Key": "compiler.cpp.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu++11 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD"
+        },
+        {
             "Key": "recipe.size.pattern",
             "Value": "\"{compiler.path}{compiler.size.cmd}\" -A \"{build.path}/{build.project_name}.elf\""
         },
         {
-            "Key": "compiler.size.cmd",
-            "Value": "arm-none-eabi-size"
+            "Key": "compiler.warning_flags.none",
+            "Value": "-w"
         },
         {
-            "Key": "build.variant_system_lib",
-            "Value": "libsam_sam3x8e_gcc_rel.a"
+            "Key": "tools.bossac.cmd",
+            "Value": "bossac.exe"
         },
         {
-            "Key": "compiler.ldflags",
-            "Value": ""
+            "Key": "build.mcu",
+            "Value": "cortex-m3"
         },
         {
-            "Key": "tools.bossac_remote.upload.pattern",
-            "Value": "/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 -U {upload.native_usb} -e -w -v -b /tmp/sketch.bin -R"
-        },
-        {
-            "Key": "upload.native_usb",
-            "Value": "false"
-        },
-        {
-            "Key": "compiler.path",
-            "Value": "{runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path}/bin/"
-        },
-        {
-            "Key": "_id",
-            "Value": "arduino_due_x_dbg"
-        },
-        {
-            "Key": "compiler.S.extra_flags",
-            "Value": ""
-        },
-        {
-            "Key": "compiler.elf2hex.flags",
-            "Value": "-O binary"
-        },
-        {
-            "Key": "tools.bossac.upload.params.quiet",
-            "Value": ""
-        },
-        {
-            "Key": "version",
-            "Value": "1.6.12"
-        },
-        {
-            "Key": "runtime.tools.arm-none-eabi-gcc.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
-        },
-        {
-            "Key": "build.f_cpu",
-            "Value": "84000000L"
-        },
-        {
-            "Key": "compiler.objcopy.cmd",
-            "Value": "arm-none-eabi-objcopy"
-        },
-        {
-            "Key": "pid.0",
-            "Value": "0x003d"
-        },
-        {
-            "Key": "compiler.ar.extra_flags",
-            "Value": ""
+            "Key": "extra.time.dst",
+            "Value": "0"
         },
         {
             "Key": "runtime.tools.bossac.path",
             "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.6.1-arduino"
         },
         {
-            "Key": "build.fqbn",
-            "Value": "arduino:sam:arduino_due_x_dbg"
+            "Key": "runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
         },
         {
-            "Key": "compiler.elf2hex.extra_flags",
+            "Key": "runtime.tools.arm-none-eabi-gcc.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
+        },
+        {
+            "Key": "build.core.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino"
+        },
+        {
+            "Key": "compiler.ar.extra_flags",
             "Value": ""
+        },
+        {
+            "Key": "build.system.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system"
+        },
+        {
+            "Key": "upload.use_1200bps_touch",
+            "Value": "true"
+        },
+        {
+            "Key": "tools.bossac_remote.upload.pattern",
+            "Value": "/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 -U {upload.native_usb} -e -w -v -b /tmp/sketch.bin -R"
+        },
+        {
+            "Key": "build.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\Output\\Arduino_Due__Programming_Port_\\Debug"
+        },
+        {
+            "Key": "runtime.ide.version",
+            "Value": "10600"
+        },
+        {
+            "Key": "compiler.libsam.c.flags",
+            "Value": "\"-I{build.system.path}/libsam\" \"-I{build.system.path}/CMSIS/CMSIS/Include/\" \"-I{build.system.path}/CMSIS/Device/ATMEL/\""
+        },
+        {
+            "Key": "compiler.define",
+            "Value": "-DARDUINO="
+        },
+        {
+            "Key": "extra.time.zone",
+            "Value": "3600"
+        },
+        {
+            "Key": "build.usb_product",
+            "Value": "\"Arduino Due\""
+        },
+        {
+            "Key": "build.board",
+            "Value": "SAM_DUE"
+        },
+        {
+            "Key": "upload.protocol",
+            "Value": "sam-ba"
+        },
+        {
+            "Key": "build.vid",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "compiler.ldflags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.size.cmd",
+            "Value": "arm-none-eabi-size"
+        },
+        {
+            "Key": "runtime.os",
+            "Value": "windows"
+        },
+        {
+            "Key": "build.variant.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x"
+        },
+        {
+            "Key": "tools.ctags.path",
+            "Value": "{runtime.tools.ctags.path}"
         },
         {
             "Key": "preproc.macros.flags",
             "Value": "-w -x c++ -E -CC"
         },
         {
-            "Key": "compiler.warning_flags.more",
-            "Value": "-Wall"
-        },
-        {
-            "Key": "runtime.tools.ctags-5.8-arduino11.path",
+            "Key": "runtime.tools.ctags.path",
             "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
         },
         {
@@ -1896,248 +2079,200 @@
             "Value": "{build.project_name}.bin"
         },
         {
-            "Key": "compiler.S.flags",
-            "Value": "-c -g -x assembler-with-cpp -MMD"
-        },
-        {
-            "Key": "runtime.tools.ctags.path",
-            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
-        },
-        {
-            "Key": "extra.time.local",
-            "Value": "1551390118"
-        },
-        {
-            "Key": "build.usb_product",
-            "Value": "\"Arduino Due\""
-        },
-        {
-            "Key": "runtime.os",
-            "Value": "windows"
-        },
-        {
-            "Key": "build.board",
-            "Value": "SAM_DUE"
-        },
-        {
-            "Key": "vid.0",
-            "Value": "0x2341"
-        },
-        {
-            "Key": "build.variant",
-            "Value": "arduino_due_x"
-        },
-        {
-            "Key": "compiler.c.flags",
-            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -Dprintf=iprintf -MMD"
-        },
-        {
-            "Key": "recipe.c.o.pattern",
-            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.c.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.c.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
-        },
-        {
-            "Key": "tools.bossac.cmd",
-            "Value": "bossac.exe"
-        },
-        {
-            "Key": "compiler.cpp.flags",
-            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu++11 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD"
-        },
-        {
-            "Key": "recipe.size.regex",
-            "Value": "\\.text\\s+([0-9]+).*"
-        },
-        {
-            "Key": "build.ldscript",
-            "Value": "linker_scripts/gcc/flash.ld"
-        },
-        {
-            "Key": "runtime.hardware.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam"
-        },
-        {
-            "Key": "tools.ctags.path",
-            "Value": "{runtime.tools.ctags.path}"
-        },
-        {
-            "Key": "compiler.warning_flags.all",
-            "Value": "-Wall -Wextra"
-        },
-        {
-            "Key": "build.project_name",
-            "Value": "WurstBot.ino"
-        },
-        {
-            "Key": "runtime.ide.version",
-            "Value": "10600"
-        },
-        {
-            "Key": "compiler.elf2hex.cmd",
-            "Value": "arm-none-eabi-objcopy"
-        },
-        {
-            "Key": "name",
-            "Value": "Arduino Due (Programming Port)"
-        },
-        {
-            "Key": "compiler.combine.flags",
-            "Value": "-u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid"
-        },
-        {
-            "Key": "upload.wait_for_upload_port",
-            "Value": "false"
-        },
-        {
-            "Key": "compiler.S.cmd",
-            "Value": "arm-none-eabi-gcc"
-        },
-        {
-            "Key": "compiler.warning_flags.none",
-            "Value": "-w"
-        },
-        {
-            "Key": "build.core",
-            "Value": "arduino"
-        },
-        {
-            "Key": "compiler.define",
-            "Value": "-DARDUINO="
-        },
-        {
-            "Key": "compiler.c.cmd",
-            "Value": "arm-none-eabi-gcc"
-        },
-        {
-            "Key": "extra.time.dst",
-            "Value": "0"
-        },
-        {
-            "Key": "recipe.objcopy.bin.pattern",
-            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.bin\""
-        },
-        {
-            "Key": "pid.1",
-            "Value": "0x003d"
-        },
-        {
-            "Key": "upload.use_1200bps_touch",
-            "Value": "true"
-        },
-        {
-            "Key": "build.core.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino"
-        },
-        {
-            "Key": "ide_version",
-            "Value": "10600"
-        },
-        {
-            "Key": "upload.protocol",
-            "Value": "sam-ba"
-        },
-        {
-            "Key": "build.pid",
-            "Value": "0x003e"
-        },
-        {
-            "Key": "build.usb_flags",
-            "Value": "-DUSB_VID={build.vid} -DUSB_PID={build.pid} -DUSBCON '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'"
-        },
-        {
-            "Key": "compiler.cpp.cmd",
-            "Value": "arm-none-eabi-g++"
-        },
-        {
-            "Key": "build.system.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\system"
-        },
-        {
-            "Key": "build.usb_manufacturer",
-            "Value": "\"Arduino LLC\""
-        },
-        {
-            "Key": "recipe.c.combine.pattern",
-            "Value": "\"{compiler.path}{compiler.c.elf.cmd}\" -mcpu={build.mcu} -mthumb {compiler.c.elf.flags} \"-T{build.variant.path}/{build.ldscript}\" \"-Wl,-Map,{build.path}/{build.project_name}.map\" {compiler.c.elf.extra_flags} -o \"{build.path}/{build.project_name}.elf\" \"-L{build.path}\" -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group {compiler.combine.flags} {object_files} \"{build.variant.path}/{build.variant_system_lib}\" \"{build.path}/{archive_file}\" -Wl,--end-group -lm -lgcc"
-        },
-        {
-            "Key": "compiler.ar.flags",
-            "Value": "rcs"
-        },
-        {
-            "Key": "runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
-        },
-        {
-            "Key": "compiler.cpp.extra_flags",
-            "Value": ""
-        },
-        {
-            "Key": "build.mcu",
-            "Value": "cortex-m3"
-        },
-        {
-            "Key": "compiler.warning_flags.default",
-            "Value": ""
+            "Key": "archive_file_path",
+            "Value": "{build.path}/{archive_file}"
         },
         {
             "Key": "tools.bossac.upload.params.verbose",
             "Value": "-i -d"
         },
         {
-            "Key": "build.extra_flags",
-            "Value": "-D__SAM3X8E__ -mthumb {build.usb_flags}"
+            "Key": "compiler.combine.flags",
+            "Value": "-u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid"
         },
         {
-            "Key": "compiler.c.elf.flags",
-            "Value": "-Os -Wl,--gc-sections"
+            "Key": "pid.0",
+            "Value": "0x003d"
         },
         {
-            "Key": "compiler.c.elf.extra_flags",
-            "Value": ""
+            "Key": "compiler.warning_flags.all",
+            "Value": "-Wall -Wextra"
         },
         {
-            "Key": "compiler.warning_flags",
-            "Value": "-w"
+            "Key": "upload.wait_for_upload_port",
+            "Value": "false"
         },
         {
-            "Key": "build.arch",
-            "Value": "SAM"
+            "Key": "recipe.objcopy.bin.pattern",
+            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.bin\""
         },
         {
-            "Key": "tools.ctags.pattern",
-            "Value": "\"{cmd.path}\" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives \"{source_file}\""
+            "Key": "runtime.hardware.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam"
+        },
+        {
+            "Key": "recipe.c.o.pattern",
+            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.c.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.c.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "compiler.c.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -Dprintf=iprintf -MMD"
+        },
+        {
+            "Key": "build.variant",
+            "Value": "arduino_due_x"
+        },
+        {
+            "Key": "build.usb_flags",
+            "Value": "-DUSB_VID={build.vid} -DUSB_PID={build.pid} -DUSBCON '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'"
+        },
+        {
+            "Key": "upload.tool",
+            "Value": "bossac"
+        },
+        {
+            "Key": "ide_version",
+            "Value": "10600"
+        },
+        {
+            "Key": "recipe.ar.pattern",
+            "Value": "\"{compiler.path}{compiler.ar.cmd}\" {compiler.ar.flags} {compiler.ar.extra_flags} \"{archive_file_path}\" \"{object_file}\""
+        },
+        {
+            "Key": "tools.avrdude.path",
+            "Value": "{runtime.tools.avrdude.path}"
+        },
+        {
+            "Key": "build.usb_manufacturer",
+            "Value": "\"Arduino LLC\""
+        },
+        {
+            "Key": "version",
+            "Value": "1.6.12"
+        },
+        {
+            "Key": "upload.native_usb",
+            "Value": "false"
+        },
+        {
+            "Key": "compiler.objcopy.cmd",
+            "Value": "arm-none-eabi-objcopy"
         },
         {
             "Key": "recipe.cpp.o.pattern",
             "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
         },
         {
-            "Key": "archive_file_path",
-            "Value": "{build.path}/{archive_file}"
+            "Key": "compiler.cpp.cmd",
+            "Value": "arm-none-eabi-g++"
+        },
+        {
+            "Key": "build.ldscript",
+            "Value": "linker_scripts/gcc/flash.ld"
+        },
+        {
+            "Key": "build.variant_system_lib",
+            "Value": "libsam_sam3x8e_gcc_rel.a"
+        },
+        {
+            "Key": "extra.time.local",
+            "Value": "1551476151"
+        },
+        {
+            "Key": "compiler.ar.flags",
+            "Value": "rcs"
+        },
+        {
+            "Key": "compiler.c.elf.flags",
+            "Value": "-Os -Wl,--gc-sections"
+        },
+        {
+            "Key": "build.fqbn",
+            "Value": "arduino:sam:arduino_due_x_dbg"
+        },
+        {
+            "Key": "recipe.c.combine.pattern",
+            "Value": "\"{compiler.path}{compiler.c.elf.cmd}\" -mcpu={build.mcu} -mthumb {compiler.c.elf.flags} \"-T{build.variant.path}/{build.ldscript}\" \"-Wl,-Map,{build.path}/{build.project_name}.map\" {compiler.c.elf.extra_flags} -o \"{build.path}/{build.project_name}.elf\" \"-L{build.path}\" -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group {compiler.combine.flags} {object_files} \"{build.variant.path}/{build.variant_system_lib}\" \"{build.path}/{archive_file}\" -Wl,--end-group -lm -lgcc"
+        },
+        {
+            "Key": "compiler.c.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.c.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "compiler.c.elf.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "build.f_cpu",
+            "Value": "84000000L"
+        },
+        {
+            "Key": "tools.bossac.path",
+            "Value": "{runtime.tools.bossac.path}"
+        },
+        {
+            "Key": "upload.maximum_size",
+            "Value": "524288"
+        },
+        {
+            "Key": "compiler.S.flags",
+            "Value": "-c -g -x assembler-with-cpp -MMD"
+        },
+        {
+            "Key": "runtime.platform.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12"
+        },
+        {
+            "Key": "vid.0",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "runtime.tools.bossac-1.6.1-arduino.path",
+            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.6.1-arduino"
+        },
+        {
+            "Key": "tools.bossac.upload.params.verify",
+            "Value": "-v"
+        },
+        {
+            "Key": "compiler.cpp.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "pid.1",
+            "Value": "0x003d"
         },
         {
             "Key": "build.source.path",
             "Value": "C:\\Users\\The stolen Bratwurst\\Documents\\GitHub\\WurstBot\\sketches"
         },
         {
-            "Key": "build.variant.path",
-            "Value": "C:\\Users\\The stolen Bratwurst\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\variants\\arduino_due_x"
-        },
-        {
-            "Key": "compiler.objcopy.eep.flags",
-            "Value": "-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0"
-        },
-        {
             "Key": "extra.time.utc",
-            "Value": "1551386518"
+            "Value": "1551472551"
         },
         {
-            "Key": "compiler.ar.cmd",
-            "Value": "arm-none-eabi-ar"
+            "Key": "compiler.path",
+            "Value": "{runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path}/bin/"
         },
         {
-            "Key": "compiler.libsam.c.flags",
-            "Value": "\"-I{build.system.path}/libsam\" \"-I{build.system.path}/CMSIS/CMSIS/Include/\" \"-I{build.system.path}/CMSIS/Device/ATMEL/\""
+            "Key": "build.project_name",
+            "Value": "WurstBot.ino"
+        },
+        {
+            "Key": "vid.1",
+            "Value": "0x2A03"
+        },
+        {
+            "Key": "compiler.warning_flags",
+            "Value": "-w"
+        },
+        {
+            "Key": "compiler.elf2hex.cmd",
+            "Value": "arm-none-eabi-objcopy"
         }
     ]
 }

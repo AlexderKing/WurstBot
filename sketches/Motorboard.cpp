@@ -12,7 +12,7 @@ void MotorBoardClass::init(const uint8_t pull_pin, MotorClass* motors[4]) {
         this->motors[i] = motors[i];
     }
 
-    DisableAllMotors();
+    //DisableAllMotors();
 }
 
 MotorBoardClass::~MotorBoardClass() {
@@ -81,23 +81,23 @@ void MotorBoardClass::DriveInDirection(const int moving_direction,
 
     int directions[4][4] = {
         {Direction::Right, Direction::Right, Direction::Left, Direction::Left},
-        {Direction::Left, Direction::Right, Direction::Left, Direction::Right},
+        {Direction::Left, Direction::Right, Direction::Right, Direction::Left},
         {Direction::Left, Direction::Left, Direction::Right, Direction::Right},
-        {Direction::Right, Direction::Right, Direction::Left, Direction::Left}
+        {Direction::Right, Direction::Left, Direction::Left, Direction::Right}
     };
 
-    DisableAllMotors();
-    delay(1000);
+    //DisableAllMotors();
+    delay(100);
     EnableAllMotors();
     ChangeDirection(directions[moving_direction]);
     
 	PullSteps(steps, kmotor_speed);
 
-	Serial.println("Droven");
+	Serial.println("Driven");
     EnableAllMotors();
-    delay(1000);
-	DisableAllMotors();
-    Serial.println("Disabling motors");
+    delay(2000);
+	//DisableAllMotors();
+    //Serial.println("Disabling motors");
 }
 
 

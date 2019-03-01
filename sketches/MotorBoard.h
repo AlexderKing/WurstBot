@@ -29,11 +29,6 @@ private:
                      Status::Enabled);
     }
 
-    void DisableAllMotors() const {
-        ChangeStatus(Status::Disabled, Status::Disabled, Status::Disabled,
-                     Status::Disabled);
-    }
-
     void ChangeDirection(int dir1, int dir2, int dir3, int dir4) const;
     void ChangeDirection(int dir[4]) const;
 
@@ -48,6 +43,12 @@ public:
     void DriveInDirection(int moving_direction, int radius, int distance_in_cm,
                           int speed);
 
+    void DisableAllMotors() const {
+        ChangeStatus(Status::Disabled,
+                     Status::Disabled,
+                     Status::Disabled,
+                     Status::Disabled);
+    }
 };
 
 //extern MotorBoardClass MotorBoard;

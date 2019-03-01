@@ -7,6 +7,7 @@
 #include "MotorBoard.h"
 
 #include "HCSR04.h"
+#include "MazeMap.h"
 
 class RobotClass
 {
@@ -20,6 +21,8 @@ class RobotClass
 	MotorClass * motors_[4] = {};
     
 	HCSR04Class * us_[4] = {};
+    
+    MazeMap* map = nullptr;
 
  public:
 	void init();

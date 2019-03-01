@@ -1,8 +1,7 @@
 #include "Robot.h"
 
 #include "Pinout.h"
-#include "map.h"
-#include "node.h"
+#include "Tools.h"
 
 void RobotClass::CreateMotorsAndControl() {
 	motor_board_ = new MotorBoardClass();
@@ -25,6 +24,9 @@ void RobotClass::init()
     InitializeUltrasonicPinout();
     CreateMotorsAndControl();
     CreateUltrasonicAndControl();
+    
+    this->map = new MazeMap();
+    this->map->InitializeRobotTile();
 }
 
 void RobotClass::CreateUltrasonicAndControl()
@@ -95,21 +97,19 @@ void RobotClass::InitializeUltrasonicPinout() {
 
 void RobotClass::Maze()
 {
-    map* mmap = CreateMap();
-    tile* robot = mmap->robot_tile->tile;
-
-    UpdateTile(robot, ScanWalls());
-    direction new_direction = GetDirectionForRobot(map);
-
-    int x = XInDirection(robot->X, new_direction & ~direction::override);
-    int y = YInDirection(robot->Y, new_direction & ~override);
-
-    if ((new_direction & override) != 0) {
-
-        CreateNewTileUnderRobot(map, x, y, new_direction);
+    while (true)
+    {
+        bool* walls = ScanWalls();
+        int state = map->MoveRobotToNextPosition(walls);
+        if (state == finished) break;
+        if (state == pass) continue;
+        if (state > 3) state -= 128;
+        
+        Drive(state, 30);
+        delay(1000);
+        motor_board_->DisableAllMotors();
+        delay(3000);
     }
-    MoveRobotIntoNewPosition(map, new_direction);
-
 }
 
 RobotClass Robot;
