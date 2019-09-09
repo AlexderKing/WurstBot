@@ -1,6 +1,13 @@
 #include "MazeMap.h"
 #include "Tools.h"
 
+// Maze Map Algorithm:
+// 1. Check All 4 Sites if Unknown
+// 2. Update Tile and Number
+// 3. Drive to Unknown right part clockwise starting from Nothern
+// 3.b If All Tiles known drive back to Smallest Number
+// 3.c If Number is 1 Finish
+// 4. Go to 1
 
 MazeMap::MazeMap()
 {
